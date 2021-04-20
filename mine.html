@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!--
+        #Desenvolvido por Mikael Ferreira
+
+        Site: https://mikaelferreira.me/
+        Twitter: @mikaferreira709
+        Instagram: @mikaferreira709
+        Discord: mikaferreira#7409
+    -->
+    
+    <!-- Imports -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Cache-control" content="public">
+    <meta http-equiv="Content-Language" content="pt-br">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset-iso-8859-1">
+
+    <meta property="og:url" content="https://suahost.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_br" />
+    <meta property="og:site_name" content="SuaHost" />
+    <meta property="og:description" content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took." />
+
+    <meta name="google" value="notranslate">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover">
+    <meta name="language" value="PT-BR">
+    <meta name="author" value="Mikael Ferreira">
+    <meta name=”creator” content="Mikael Ferreira">
+    <meta name="Googlebot" content="all">
+    <meta name="robots" content="index,follow,noodp,noydir" />
+    <meta name="revisit-after" content="1 week" />
+    <meta name="language" content="Portuguese">
+    <meta name="theme-color" value="#6EFF66">
+    <meta name="rating" content="general">
+    <meta name="distribution" content="global">
+    <meta name="description" content="">
+
+    <!-- #Css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.3.45/css/materialdesignicons.css">
+    <link rel="stylesheet" type="text/css" href="./assets/vendor/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="./assets/public/css/main.css">
+    <link rel="stylesheet" type="text/css" href="./assets/public/css/responsive.css">
+
+    <title>Página Inicial - SuaHost</title>
+</head>
+<body>
+<section id="header" area="home">
+    <nav class="navbar navbar-expand-lg animated fadeInDown slow"> 
+        <button class="logo" onClick="irPara('/')"> 
+            Sua<span>Host</span>
+        </button>
+        <div class="navigation-switcher"> 
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar" aria-controls="nav" aria-expanded="false" aria-label="Hamburguer"> 
+                <i class="mdi mdi-view-day"></i>
+            </button>
+        </div>
+        <div class="container">
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav buttons">
+                    <li class="nav-item">
+                        <button class="nav-link" onClick="irPara('/')">
+                            <i class="mdi mdi-home-outline"></i>
+                            Página Inicial
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link" onClick="irPara('./mine.html')">
+                            <i class="mdi mdi-server"></i>
+                            Hospedagem Minecraft
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link" onClick="irPara('https://status.suahost.com/')">
+                            <i class="mdi mdi-network"></i>
+                            Status
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="textos">
+                        <h4 class="titulo">
+                            Escolha seu Plano!
+                        </h4>
+                        <p class="desc">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio eveniet a distinctio labore rerum aliquam praesentium dolores ab animi sequi laudantium at sit quas accusantium itaque, sint maiores, perferendis repellendus?
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <center>
+                        <img class="imagem" src="./assets/public/img/minecraft/4.png" alt="Imagem Hero">
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="divisor mt-2">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="var(--dark-2)" fill-opacity="1" d="M0,192L48,197.3C96,203,192,213,288,229.3C384,245,480,267,576,250.7C672,235,768,181,864,181.3C960,181,1056,235,1152,234.7C1248,235,1344,181,1392,154.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+        </svg>
+    </div>
+</section>
+<section id="produtos">
+    <div class="cards" area="produtos">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <center>
+                            <img class="icon" src="./assets/public/img/minecraft/block/dirt.png">
+                            <h4 class="titulo">
+                                Plano 1GB
+                            </h4>
+                            <p class="desc">
+                                Recomendado para servidores pequenos
+                            </p>
+                            <div class="divider"></div>
+                            <div class="price">
+                                <h4>5,00</h4>
+                            </div>
+                            <div class="divider"></div>
+                            <ul class="features">
+                                <li class="item">
+                                    <i class="mdi mdi-web"></i> 
+                                    SubDomínio <strong>Gratuito</strong>
+                                </li>
+                                <li class="item">
+                                    <i class="mdi mdi-trophy-variant"></i> 
+                                    Backups <strong>Semanais</strong>
+                                </li>
+                                <li class="item">
+                                    <i class="mdi mdi-gamepad-variant"></i> 
+                                    Painel <strong>Pterodactyl</strong>
+                                </li>
+                                <li class="item">
+                                    <i class="mdi mdi-fire"></i> 
+                                    AntiDDOS <strong>Premium</strong>
+                                </li>
+                                <li class="item">
+                                    <i class="mdi mdi-check-all"></i> 
+                                    Permite a JAR <strong>BungeeCord</strong>
+                                </li>
+                            </ul>
+                            <div class="divider"></div>
+                            <button class="btn btn-buy" onClick="irPara('#')">
+                                Comprar
+                            </button>
+                        </center>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <center>
+                            <img class="icon" src="./assets/public/img/minecraft/block/grass.png">
+                            <h4 class="titulo">
+                                Plano 2GB
+                            </h4>
+                            <p class="desc">
+                                Recomendado para servidores pequenos
+                            </p>
+                            <div class="divider"></div>
+                            <div class="price">
+                                <h4>10,00</h4>
+                            </div>
+                            <div class="divider"></div>
+                            <ul class="features">
+                                <li class="item">
+                                    <i class="mdi mdi-web"></i> 
+                                    SubDomínio <strong>Gratuito</strong>
+                                </li>
+                                <li class="item">
+                                    <i class="mdi mdi-trophy-variant"></i> 
+                                    Backups <strong>Semanais</strong>
+                                </li>
+                                <li class="item">
+                                    <i class="mdi mdi-gamepad-variant"></i> 
+                                    Painel <strong>Pterodactyl</strong>
+                                </li>
+                                <li class="item">
+                                    <i class="mdi mdi-fire"></i> 
+                                    AntiDDOS <strong>Premium</strong>
+                                </li>
+                                <li class="item">
+                                    <i class="mdi mdi-check-all"></i> 
+                                    Permite a JAR <strong>BungeeCord</strong>
+                                </li>
+                            </ul>
+                            <div class="divider"></div>
+                            <button class="btn btn-buy" onClick="irPara('#')">
+                                Comprar
+                            </button>
+                        </center>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <center>
+                            <img class="icon" src="./assets/public/img/minecraft/block/gravel.png">
+                            <h4 class="titulo">
+                                Plano 3GB
+                            </h4>
+                            <p class="desc">
+                                Recomendado para servidores pequenos
+                            </p>
+                            <div class="divider"></div>
+                            <div class="price">
+                                <h4>15,00</h4>
+                            </div>
+                            <div class="divider"></div>
+                            <ul class="features">
+                                <li class="item">
+                                    <i class="mdi mdi-web"></i> 
+                                    SubDomínio <strong>Gratuito</strong>
+                                </li>
+                                <li class="item">
+                                    <i class="mdi mdi-trophy-variant"></i> 
+                                    Backups <strong>Semanais</strong>
+                                </li>
+                                <li class="item">
+                                    <i class="mdi mdi-gamepad-variant"></i> 
+                                    Painel <strong>Pterodactyl</strong>
+                                </li>
+                                <li class="item">
+                                    <i class="mdi mdi-fire"></i> 
+                                    AntiDDOS <strong>Premium</strong>
+                                </li>
+                                <li class="item">
+                                    <i class="mdi mdi-check-all"></i> 
+                                    Permite a JAR <strong>BungeeCord</strong>
+                                </li>
+                            </ul>
+                            <div class="divider"></div>
+                            <button class="btn btn-buy" onClick="irPara('#')">
+                                Comprar
+                            </button>
+                        </center>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <center>
+                            <img class="icon" src="./assets/public/img/minecraft/block/sand.png">
+                            <h4 class="titulo">
+                                Plano 4GB
+                            </h4>
+                            <p class="desc">
+                                Recomendado para servidores médios
+                            </p>
+                            <div class="divider"></div>
+                            <div class="price">
+                                <h4>20,00</h4>
+                            </div>
+                            <div class="divider"></div>
+                            <ul class="features">
+                                <li class="item">
+                                    <i class="mdi mdi-web"></i> 
+                                    SubDomínio <strong>Gratuito</strong>
+                                </li>
+                                <li class="item">
+                                    <i class="mdi mdi-trophy-variant"></i> 
+                                    Backups <strong>Semanais</strong>
+                                </li>
+                                <li class="item">
+                                    <i class="mdi mdi-gamepad-variant"></i> 
+                                    Painel <strong>Pterodactyl</strong>
+                                </li>
+                                <li class="item">
+                                    <i class="mdi mdi-fire"></i> 
+                                    AntiDDOS <strong>Premium</strong>
+                                </li>
+                                <li class="item">
+                                    <i class="mdi mdi-check-all"></i> 
+                                    Permite a JAR <strong>BungeeCord</strong>
+                                </li>
+                            </ul>
+                            <div class="divider"></div>
+                            <button class="btn btn-buy" onClick="irPara('#')">
+                                Comprar
+                            </button>
+                        </center>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <center>
+                            <img class="icon" src="./assets/public/img/minecraft/block/cobblestone.png">
+                            <h4 class="titulo">
+                                Plano 5GB
+                            </h4>
+                            <p class="desc">
+                                Recomendado para servidores médios
+                            </p>
+                            <div class="divider"></div>
+                            <div class="price">
+                                <h4>25,00</h4>
+                            </div>
+                            <div class="divider"></div>
+                            <ul class="features">
+                                <li class="item">
+                                    <i class="mdi mdi-web"></i> 
+                                    SubDomínio <strong>Gratuito</strong>
+                                </li>
+                                <li class="item">
+                                    <i class="mdi mdi-trophy-variant"></i> 
+                                    Backups <strong>Semanais</strong>
+                                </li>
+                                <li class="item">
+                                    <i class="mdi mdi-gamepad-variant"></i> 
+                                    Painel <strong>Pterodactyl</strong>
+                                </li>
+                                <li class="item">
+                                    <i class="mdi mdi-fire"></i> 
+                                    AntiDDOS <strong>Premium</strong>
+                                </li>
+                                <li class="item">
+                                    <i class="mdi mdi-check-all"></i> 
+                                    Permite a JAR <strong>BungeeCord</strong>
+                                </li>
+                            </ul>
+                            <div class="divider"></div>
+                            <button class="btn btn-buy" onClick="irPara('#')">
+                                Comprar
+                            </button>
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="divisor mt-2">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="var(--dark)" fill-opacity="1" d="M0,192L48,197.3C96,203,192,213,288,229.3C384,245,480,267,576,250.7C672,235,768,181,864,181.3C960,181,1056,235,1152,234.7C1248,235,1344,181,1392,154.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+    </svg>
+</div>
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h4 class="logo">
+                    SUAHOST
+                </h4>
+                <p class="rights">
+                    Todos os direitos reservados
+                </p>
+                <p class="rights">&copy; 2020-2021 SuaHost</p>
+            </div>
+            <div class="col-md-4">
+                <center>
+                    <h4 class="titulo">
+                        Links Úteis
+                    </h4>
+                    <div class="divider"></div>
+                </center>
+                <ul>
+                    <li>
+                        <button class="btn btn-footer" onClick="irPara('#')">Área do Cliente</button>
+                    </li>
+                    <li>
+                        <button class="btn btn-footer" onClick="irPara('#')">Tickets</button>
+                    </li>
+                    <li>
+                        <button class="btn btn-footer" onClick="irPara('#')">Discord</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <p class="desc">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat dolore blanditiis maiores, sed laborum reiciendis ea nostrum culpa? Dolorem voluptas unde quasi officia deleniti ratione quibusdam. Delectus fuga atque odio!
+                </p>
+            </div>
+        </div>
+        <center>
+            <button class="developed" onClick="irPara('https://mikaelferreira.me/')">
+                <i class="mdi mdi-code-tags"></i> Desenvolvido com muito ❤️ e ☕ por Mikael Ferreira
+            </button>
+        </center>
+    </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+<script type="text/javascript" src="./assets/public/js/functions.js"></script>
+</body>
+</html>

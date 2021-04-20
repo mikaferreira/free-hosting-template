@@ -1,0 +1,38 @@
+@media screen and (max-width: 915px) {
+    .card {
+        margin-top: 20px;
+    }
+
+    #header {
+        .navbar {
+            padding: 20px 20px;
+
+            .navbar-toggler {
+                color: #fff;
+                font-size: 30px;
+            }
+        }
+
+        .hero {
+            .row {
+                .col-md-6 {
+                    .textos {
+                        text-align: center;
+                        padding: 20px;
+                    }
+
+                    .imagem {
+                        height: 200px;
+                    }
+                }
+            }
+        }
+    }
+
+    #cards[area="header"] {
+        .card {
+            text-align: center;
+        }
+    }
+
+}
